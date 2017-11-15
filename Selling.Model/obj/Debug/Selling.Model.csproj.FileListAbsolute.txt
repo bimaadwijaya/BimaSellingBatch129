@@ -1,0 +1,10 @@
+D:\BATCH129\Day13\Selling\Selling.Model\bin\Debug\Selling.Model.dll.config
+D:\BATCH129\Day13\Selling\Selling.Model\bin\Debug\Selling.Model.dll
+D:\BATCH129\Day13\Selling\Selling.Model\bin\Debug\Selling.Model.pdb
+D:\BATCH129\Day13\Selling\Selling.Model\bin\Debug\EntityFramework.dll
+D:\BATCH129\Day13\Selling\Selling.Model\bin\Debug\EntityFramework.SqlServer.dll
+D:\BATCH129\Day13\Selling\Selling.Model\bin\Debug\EntityFramework.xml
+D:\BATCH129\Day13\Selling\Selling.Model\bin\Debug\EntityFramework.SqlServer.xml
+D:\BATCH129\Day13\Selling\Selling.Model\obj\Debug\Selling.Model.csprojResolveAssemblyReference.cache
+D:\BATCH129\Day13\Selling\Selling.Model\obj\Debug\Selling.Model.dll
+D:\BATCH129\Day13\Selling\Selling.Model\obj\Debug\Selling.Model.pdb

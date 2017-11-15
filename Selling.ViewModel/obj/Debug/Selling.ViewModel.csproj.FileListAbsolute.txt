@@ -1,0 +1,5 @@
+D:\BATCH129\Day13\Selling\Selling.ViewModel\bin\Debug\Selling.ViewModel.dll
+D:\BATCH129\Day13\Selling\Selling.ViewModel\bin\Debug\Selling.ViewModel.pdb
+D:\BATCH129\Day13\Selling\Selling.ViewModel\obj\Debug\Selling.ViewModel.csprojResolveAssemblyReference.cache
+D:\BATCH129\Day13\Selling\Selling.ViewModel\obj\Debug\Selling.ViewModel.dll
+D:\BATCH129\Day13\Selling\Selling.ViewModel\obj\Debug\Selling.ViewModel.pdb

@@ -1,0 +1,5 @@
+D:\BATCH129\Day13\Selling\Selling.Commonly\bin\Debug\Selling.Commonly.dll
+D:\BATCH129\Day13\Selling\Selling.Commonly\bin\Debug\Selling.Commonly.pdb
+D:\BATCH129\Day13\Selling\Selling.Commonly\obj\Debug\Selling.Commonly.csprojResolveAssemblyReference.cache
+D:\BATCH129\Day13\Selling\Selling.Commonly\obj\Debug\Selling.Commonly.dll
+D:\BATCH129\Day13\Selling\Selling.Commonly\obj\Debug\Selling.Commonly.pdb

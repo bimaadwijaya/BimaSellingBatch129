@@ -1,0 +1,57 @@
+﻿@model IEnumerable<Selling.ViewModel.tblItemViewModel>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.tblItemId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ItemName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.BuyingPrice)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SellingPrice)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ItemAmount)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Pieces)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.tblItemId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ItemName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.BuyingPrice)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SellingPrice)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ItemAmount)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Pieces)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.ItemCode }) |
+            @Html.ActionLink("Details", "Details", new { id=item.ItemCode }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.ItemCode })
+        </td>
+    </tr>
+}
+
+</table>

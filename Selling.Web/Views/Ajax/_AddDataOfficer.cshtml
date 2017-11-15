@@ -1,0 +1,41 @@
+﻿@model Selling.ViewModel.tblOfficerViewModel
+
+@using (Html.BeginForm(null,null,FormMethod.Post, new {id="idFormOfficer"}))
+{
+    <div class="form-horizontal">
+        <div class="form-group">
+            <div class="col-md-4">
+                @Html.LabelFor(Model => Model.OfficerCode, new {@class="control-label col-md-4"})
+            </div>
+            <div class="col-md-8">
+                @Html.EditorFor(Model=> Model.OfficerCode, new  {@class="form control"})
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-4">
+                @Html.LabelFor(Model => Model.OfficerName, new {@class="control-label"})
+            </div>
+            <div class="col-md-8">
+                @Html.EditorFor(Model => Model.OfficerName, new {@class="form control" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-4">
+                @Html.LabelFor(Model => Model.OfficerPassword, new { @class = "control-label" })
+            </div>
+            <div class="col-md-8">
+                @Html.EditorFor(Model => Model.OfficerPassword, new { @class = "form control" })
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-md-4">
+                @Html.LabelFor(Model => Model.OfficerStatus, new { @class = "control-label" })
+            </div>
+            <div class="col-md-8">
+                @Html.EditorFor(Model => Model.OfficerStatus, new { @class = "form control" })
+            </div>
+        </div>
+    </div>
+}
